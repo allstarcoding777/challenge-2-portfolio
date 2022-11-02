@@ -1,0 +1,41 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#457b9d, #b5e48c);
+}
+
+header h1 {
+    color:black;
+    text-align: center;
+}
+
+header nav {
+    }
+
+ul {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+  
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color to (black) on hover */
+li a:hover {
+    background-color: #333;
+}
