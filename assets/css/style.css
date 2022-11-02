@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    background: linear-gradient(#457b9d, #b5e48c);
+    background: linear-gradient(rgb(255, 179, 0), #457b9d, #b5e48c);
 }
 
 header h1 {
-    color:black;
-    text-align: center;
+    display: flex;
+    justify-content: center; 
 }
 
 header nav {
@@ -34,8 +34,26 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black;
+}
   
 /* Change the link color to (black) on hover */
 li a:hover {
     background-color: #333;
 }
+
+main h2 {
+    display: flex;
+    justify-content: center;    
+}
+
+  footer h2 {
+    display: flex;
+    justify-content: flex-start;
+  }
