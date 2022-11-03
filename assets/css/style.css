@@ -11,9 +11,6 @@ header h1 {
     justify-content: center; 
 }
 
-header nav {
-    }
-
 ul {
     font-size: larger;
     display: flex;
@@ -35,15 +32,23 @@ li a {
     text-decoration: none;
 }
 
+.headerImg {
+    pointer-events: none;
+}
+
 img {
-  display: flex;
-  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  border: solid black;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+img:hover {
+    background-color: #333;
 }
   
-/* Change the link color to (black) on hover */
+/* Changes the link color to (black) on hover */
 li a:hover {
     background-color: #333;
 }
@@ -51,9 +56,38 @@ li a:hover {
 main h2 {
     display: flex;
     justify-content: center;    
+    border: solid black;
+}
+
+main section strong {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
 }
 
   footer h2 {
     display: flex;
     justify-content: flex-start;
-  }
+}
+
+  /* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header {
+      background: rgb(46, 139, 123);
+    }
+}
+  
+  /* Large smartphones - header changes color */
+  @media screen and (max-width: 768px) {
+    header {
+      background-color: white;
+    }
+}  
+  
+  /* Small smartphones - image background change color */
+  @media screen and (max-width: 576px) {
+    img {
+        background-color: black;
+    }    
+}
+  
