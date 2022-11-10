@@ -12,6 +12,8 @@ Click on the links in the navigation bar to be redirected to that section of the
 
 ![header screenshot](assets/images/header-screenshot.png)
 
+https://allstarcoding777.github.io/challenge-2-portfolio/
+
 ## License
 
 Please refer to the license in the repo.

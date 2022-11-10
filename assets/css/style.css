@@ -87,7 +87,8 @@ main section strong {
   /* Small smartphones - image background change color */
   @media screen and (max-width: 576px) {
     img {
-        background-color: black;
+        display: flex;
+        flex-shrink: 1;
     }    
 }
   
